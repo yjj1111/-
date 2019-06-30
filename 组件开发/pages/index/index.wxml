@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+   <button  bindtap="bindViewTap">点击</button>
+<modal-success show-bgpack="{{showBgpack}}"  show-phonepack="{{showPhonepack}}"        bind:ok="visibleOk"></modal-success>
+
+</view>

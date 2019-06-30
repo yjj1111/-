@@ -1,0 +1,63 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {//用以配置打包时对符合指定规则的文件或文件夹进行忽略
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,//不检查安全域名和 TLS 版本
+		"es6": true, //启用 es6 转 es5
+		"postcss": true,//上传代码时样式自动补全
+		"minified": true,//上传代码时自动压缩
+		"newFeature": true,//新特征，文档中未描述
+		"nodeModules": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",//编译类型，miniprogram为普通小程序项目
+	"libVersion": "2.7.2",//基础库版本
+	"appid": "wxc2e490ff18a57d05", //AppID
+	"projectname": "%E7%BB%84%E4%BB%B6%E5%BC%80%E5%8F%91",
+	"debugOptions": {
+		"hidedInDevtools": []//配置调试时于调试器 Sources 面板隐藏源代码的hidedInDevtools 的配置规则和 packOptions.ignore 是一致的。
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+  "scripts": {}, //自定义预处理的命令 beforeCompile编译前预处理命令、beforePreview预览前预处理命令、beforeUpload上传前预处理命令
+	"condition": {//编译模式，增加编译模式时，会添加到下面的对应数组
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "调试",
+					"pathName": "pages/index/index",
+					"scene": null
+				}
+			]
+		}
+	}
+}
