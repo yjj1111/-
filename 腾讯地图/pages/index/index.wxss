@@ -1,0 +1,48 @@
+.bgpack {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 30rpx;
+  z-index: 10;
+}
+
+.bgpack .wicket {
+  width: 560rpx;
+  height: 334rpx;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 40rpx 0rpx 0rpx 0rpx;
+  border-radius: 6rpx;
+  background-color: #f8f8f8;
+}
+
+.bgpack button {
+  display: inline-block;
+  width: 50%;
+  height: 100rpx;
+  background: none;
+  border-radius: 0;
+  font-size: 36rpx;
+}
+
+.bgpack button::after {
+  border: none;
+}
+
+.img-icon-type {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+
+.page-body-button {
+  margin-bottom: 30rpx;
+}
